@@ -20,6 +20,8 @@
 
                                 <!--Open Graph Title-->
                                 
+                                    <meta property="og:title" content="PORTPOLIO - 키즈엠 인트라넷" />
+                                    
 
                                         <!--Open Graph Site Name-->
                                         <meta property="og:site_name" content="Web Developer Khzero-PortPolio" />
@@ -32,7 +34,7 @@
                                                     <!-- Title -->
                                                     
                                                         <title>
-                                                            Archives: 2018 - Web Developer Khzero-PortPolio
+                                                            PORTPOLIO - 키즈엠 인트라넷 - Web Developer Khzero-PortPolio
                                                         </title>
 
                                                         <!-- Custom CSS -->
@@ -110,28 +112,89 @@
                 <!-- Main Content -->
                 
 
-<section class="archives">
+    <h1>PORTPOLIO - 키즈엠 인트라넷</h1>
+
+
+
+<!-- Gallery -->
+
+
+<!-- Content -->
+<h1 id="메인-페이지"><a href="#메인-페이지" class="headerlink" title="메인 페이지"></a>메인 페이지</h1><p><img src="/images/kizm-in/main.PNG" alt="메인이미지"></p>
+<hr>
+<h2 id="사내-인트라넷이므로-상세-페이지-이미지는-첨부하지-않습니다"><a href="#사내-인트라넷이므로-상세-페이지-이미지는-첨부하지-않습니다" class="headerlink" title="사내 인트라넷이므로 상세 페이지 이미지는 첨부하지 않습니다."></a>사내 인트라넷이므로 상세 페이지 이미지는 첨부하지 않습니다.</h2><hr>
+<h2 id="기능-소개"><a href="#기능-소개" class="headerlink" title="기능 소개"></a>기능 소개</h2><ul>
+<li>사내 인트라넷 페이지<ul>
+<li>회원 기능<ul>
+<li>미로그인시 로그인 페이지로 이동</li>
+<li>회원별 썸네일 프로필 이미지 처리</li>
+<li>동시 접속 차단<ul>
+<li>다른 세션에서 로그인 할 경우 현재 세션 해제</li>
+</ul>
+</li>
+<li>로그인 기록 및 통계<ul>
+<li>기간별 조회</li>
+<li>월별 통계</li>
+<li>년도별 통계</li>
+</ul>
+</li>
+<li>현재 접속자 리스트 기능</li>
+<li>7일 이상 미접속 계정 휴면 계정처리(crontab 사용)</li>
+</ul>
+</li>
+<li>일정 기능<ul>
+<li>fullCalendar.js</li>
+<li>시작일, 종료일 입력한 데이터 가공 처리</li>
+<li>Ajax 처리<ul>
+<li>기본 현재 월 일정 표시</li>
+<li>일자 선택시 해당 일자 일정 표시</li>
+<li>월 이동시 해당 월 일정 표시</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+
+<!-- Tags -->
+
+
+
+<div class="tags">
+    <a href="/tags/PORTPOLIO/" class="button small">PORTPOLIO</a> <a href="/tags/PHP/" class="button small">PHP</a>
+</div>
+
+
+
+<!-- Comments -->
+<div>
     
-    <ul class="archive-list">
-        
-            <li>
-    <a href="/2018/01/14/kizm-in/">PORTPOLIO - 키즈엠 인트라넷</a>
-</li>
+    <hr />
+    <h3>Comments:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
 
-        
-            <li>
-    <a href="/2018/01/13/mental-doctor/">PORTPOLIO - 멘탈닥터 (다국어 사이트)</a>
-</li>
 
-        
-            <li>
-    <a href="/2018/01/13/sokorea/">PORTPOLIO - 스페셜올림픽코리아</a>
-</li>
 
-        
-    </ul>
-</section><!-- end main -->
+    <hr />
+    <h3>Comments:</h3>
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1781775975174082";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 
+    <div class="fb-comments" data-href="http://khzero-portpolio.github.io/2018/01/14/kizm-in/index.html" data-num-posts="5" data-width="100%" data-colorscheme="light"></div>
+
+</div>
 
 
 
@@ -209,7 +272,7 @@
         var dsq = document.createElement('script');
         dsq.type = 'text/javascript';
         dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
