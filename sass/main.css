@@ -2947,3 +2947,5 @@ body.is-menu-visible #menu {
     margin: 50px 0; }
     #wrapper > * > .inner .tags a.button {
       margin: 0 15px 0 0; }
+  #wrapper > * > .inner p img {
+    width: 100%; }
